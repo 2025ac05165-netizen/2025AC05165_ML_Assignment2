@@ -79,7 +79,7 @@ Breast Cancer Wisconsin dataset, with features standardized using
 
 ## Live Streamlit App
 
-> **`<PASTE_YOUR_LIVE_STREAMLIT_APP_URL_HERE>`**
+> **`<https://cdbsdcuqofvxeqejyqfaxp.streamlit.app/>`**
 
 ## App Features
 
