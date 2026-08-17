@@ -1,6 +1,4 @@
-# ML Assignment 2 — Classification Models & Streamlit Deployment
-
-**Course:** M.Tech (AIML/DSE) — Machine Learning, BITS Pilani WILP
+# ML Assignment 2 — Classification Models
 
 ---
 
@@ -78,24 +76,6 @@ Breast Cancer Wisconsin dataset, with features standardized using
 | Naive Bayes                   | Decent Accuracy (0.9298) but the highest AUC among the non-ensemble/non-LR models isn't matched by its Accuracy/F1 — the conditional-independence assumption doesn't perfectly hold for these correlated cell-measurement features, capping its precision/recall balance. |
 | Random Forest (Ensemble)      | Matches kNN on Accuracy/F1 (0.9561 / 0.9655) but with a notably higher AUC (0.9932), confirming that averaging many decision trees fixes the overfitting problem seen in the single Decision Tree and produces much better-calibrated probability estimates. |
 | **Overall Winner for this dataset** | **Logistic Regression** — it achieves the top score on every single metric (Accuracy, AUC, Precision, Recall, F1, MCC), suggesting the diagnostic features separate malignant vs. benign tumors in a nearly linear fashion once standardized. Random Forest is the strongest runner-up, offering the best AUC after Logistic Regression and far more robustness than a single Decision Tree. |
-
----
-
-## How to Reproduce
-
-```bash
-# 1. Clone the repo and install dependencies
-git clone <PASTE_YOUR_GITHUB_REPO_URL_HERE>
-cd project-folder
-pip install -r requirements.txt
-
-# 2. (Re)train all models — regenerates model/*.joblib, test_data.csv,
-#    and model/metrics_comparison.csv
-python model/train_models.py
-
-# 3. Run the Streamlit app locally
-streamlit run app.py
-```
 
 ## Live Streamlit App
 
