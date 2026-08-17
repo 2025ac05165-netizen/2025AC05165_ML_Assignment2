@@ -29,7 +29,7 @@ with real-world clinical relevance (early cancer diagnosis support).
 
 ## c. GitHub Repository Link
 
-> **https://github.com/2025ac05165-netizen/2025AC_ML_Assignmnet2.git**
+> **https://github.com/2025ac05165-netizen/2025AC05165_ML_Assignment2.git**
 
 Repository structure:
 ```
